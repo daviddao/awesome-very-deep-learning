@@ -12,7 +12,7 @@
 ### Papers
 
 - [Deep Networks with Stochastic Depth (2016)](http://arxiv.org/abs/1603.09382) [[original code](https://github.com/yueatsprograms/Stochastic_Depth)], dropout with residual layers as regularizer
-- [Identity Mappings in Deep Residual Networks (2016)](http://arxiv.org/abs/1603.05027), improving the original proposed residual units by reordering batchnorm and activation layers
+- [Identity Mappings in Deep Residual Networks (2016)](http://arxiv.org/abs/1603.05027) [[original code](https://github.com/KaimingHe/resnet-1k-layers)], improving the original proposed residual units by reordering batchnorm and activation layers
 - [Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning (2016)](http://arxiv.org/abs/1602.07261), inception network with residual connections
 - [Deep Residual Learning for Image Recognition (2015)](http://arxiv.org/abs/1512.03385) [[original code](https://github.com/KaimingHe/deep-residual-networks)], original paper introducing residual neural networks
 
