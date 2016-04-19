@@ -28,6 +28,8 @@
 0. Tensorflow with tflearn, with CIFAR-10 and MNIST: [code](https://github.com/tflearn/tflearn/blob/master/examples/images/residual_network_cifar10.py)
 0. Tensorflow with skflow, with MNIST: [code](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/skflow/resnet.py)
 0. Stochastic dropout in Keras: [code](https://github.com/dblN/stochastic_depth_keras)
+0. ResNet in Chainer: [code](https://github.com/yasunorikudo/chainer-ResNet)
+0. Stochastic dropout in Chainer: [code](https://github.com/yasunorikudo/chainer-ResDrop)
 
 In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl helps to convert the pre-trained models to TensorFlow.
 
