@@ -47,6 +47,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 0. Lasagne: [code](https://github.com/Lasagne/Lasagne/blob/highway_example/examples/Highway%20Networks.ipynb)
 0. Caffe: [code](https://github.com/flukeskywalker/highway-networks)
 0. Torch: [code](https://github.com/yoonkim/lstm-char-cnn/blob/master/model/HighwayMLP.lua)
+0. Tensorflow: [blog](https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.r2msk226f), [code](https://github.com/fomorians/highway-cnn)
 
 ## Very Deep Learning Theory
 
