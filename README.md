@@ -45,3 +45,11 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 0. Lasagne: [code](https://github.com/Lasagne/Lasagne/blob/highway_example/examples/Highway%20Networks.ipynb)
 0. Caffe: [code](https://github.com/flukeskywalker/highway-networks)
 0. Torch: [code](https://github.com/yoonkim/lstm-char-cnn/blob/master/model/HighwayMLP.lua)
+
+## Very Deep Learning Theory
+
+**Theories** in very deep learning concentrate on the idea that very deep networks with skip connections are able to efficiently approximate recurrent computations (similar to the recurrent connections in the visual cortex).
+
+### Papers
+
+- [Bridging the Gaps Between Residual Learning, Recurrent Neural Networks and Visual Cortex](http://arxiv.org/abs/1604.03640), shows that ResNets with shared weights work well too although having fewer parameters 
