@@ -33,6 +33,7 @@
 0. Stochastic dropout in Keras: [code](https://github.com/dblN/stochastic_depth_keras)
 0. ResNet in Chainer: [code](https://github.com/yasunorikudo/chainer-ResNet)
 0. Stochastic dropout in Chainer: [code](https://github.com/yasunorikudo/chainer-ResDrop)
+0. Wide Residual Networks in Keras: [code](https://github.com/asmith26/wide_resnets_keras)
 
 In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl helps to convert the pre-trained models to TensorFlow.
 
