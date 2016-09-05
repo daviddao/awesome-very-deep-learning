@@ -11,6 +11,7 @@
 
 ### Papers
 
+- [Residual Networks of Residual Networks: Multilevel Residual Networks (2016)](https://arxiv.org/abs/1608.02908), adds multi-level hierarchical residual mappings and shows that this improves the accuracy of deep networks
 - [Wide Residual Networks (2016)](http://arxiv.org/abs/1605.07146) [[orginal code](https://github.com/szagoruyko/wide-residual-networks)], studies wide residual neural networks and shows that making residual blocks wider outperforms deeper and thinner network architectures
 - [Swapout: Learning an ensemble of deep architectures (2016)](https://arxiv.org/pdf/1605.06465v1.pdf), improving accuracy by randomly applying dropout, skipforward and residual units per layer
 - [Deep Networks with Stochastic Depth (2016)](http://arxiv.org/abs/1603.09382) [[original code](https://github.com/yueatsprograms/Stochastic_Depth)], dropout with residual layers as regularizer
@@ -45,6 +46,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 
 ### Papers
 
+- [Recurrent Highway Networks (2016)](https://arxiv.org/abs/1607.03474), introducing recurrent highway networks, which increases space depth in recurrent networks
 - [Training Very Deep Networks (2015)](http://arxiv.org/abs/1507.06228), introducing highway neural networks
 
 ### Implementations
