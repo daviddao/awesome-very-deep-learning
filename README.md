@@ -46,7 +46,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 
 ### Papers
 
-- [Recurrent Highway Networks (2016)](https://arxiv.org/abs/1607.03474), introducing recurrent highway networks, which increases space depth in recurrent networks
+- [Recurrent Highway Networks (2016)](https://arxiv.org/abs/1607.03474) [[original code](https://github.com/julian121266/RecurrentHighwayNetworks)], introducing recurrent highway networks, which increases space depth in recurrent networks 
 - [Training Very Deep Networks (2015)](http://arxiv.org/abs/1507.06228), introducing highway neural networks
 
 ### Implementations
