@@ -5,6 +5,27 @@
 
 **awesome-very-deep-learning** is a curated list for papers and code about implementing and training very deep neural networks.
 
+## Densely Connected Convolutional Networks
+
+**Densely Connected Convolutional Networks** are very deep neural networks consisting of dense blocks. Within dense blocks, each layer receives the the feature maps of all preceding layers. This leverages feature reuse and thus substantially reduces the model size (parameters).
+
+### Papers
+
+- [Densely Connected Convolutional Networks (2016)](https://arxiv.org/abs/1608.06993) [[original code](https://github.com/liuzhuang13/DenseNet)], introduces DenseNets and shows that it outperforms ResNets in CIFAR10 and 100 by a large margin (especially when not using data augmentation), while only requiring half the parameters. 
+
+### Implementations
+
+0. Authors' [Caffe Implementation] (https://github.com/liuzhuang13/DenseNetCaffe)
+0. Authors' more memory-efficient [Torch Implementation] (https://github.com/gaohuang/DenseNet_lite).
+0. [Tensorflow Implementation] (https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li.
+0. [Tensorflow Implementation] (https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare.
+0. [Lasagne Implementation] (https://github.com/Lasagne/Recipes/tree/master/papers/densenet) by Jan Schlüter.
+0. [Keras Implementation] (https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) by tdeboissiere. 
+0. [Keras Implementation] (https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
+0. [Chainer Implementation] (https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
+0. [Chainer Implementation] (https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
+
+
 ## Deep Residual Learning 
 
 **Deep Residual Networks** are a family of extremely deep architectures (up to 1000 layers) showing compelling accuracy and nice convergence behaviors. Instead of learning a new representation at each layer, deep residual networks use identity mappings to learn residuals. 
