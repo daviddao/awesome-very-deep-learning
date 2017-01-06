@@ -32,6 +32,7 @@
 
 ### Papers
 
+- [Aggregated Residual Transformation for Deep Neural Networks (2016)](https://arxiv.org/abs/1611.05431), introduces ResNeXt, which aggregates a set of transformations within a a res-block. It achieved the 2nd place on ILSVRC16.
 - [Residual Networks of Residual Networks: Multilevel Residual Networks (2016)](https://arxiv.org/abs/1608.02908), adds multi-level hierarchical residual mappings and shows that this improves the accuracy of deep networks
 - [Wide Residual Networks (2016)](http://arxiv.org/abs/1605.07146) [[orginal code](https://github.com/szagoruyko/wide-residual-networks)], studies wide residual neural networks and shows that making residual blocks wider outperforms deeper and thinner network architectures
 - [Swapout: Learning an ensemble of deep architectures (2016)](https://arxiv.org/pdf/1605.06465v1.pdf), improving accuracy by randomly applying dropout, skipforward and residual units per layer
