@@ -5,6 +5,14 @@
 
 **awesome-very-deep-learning** is a curated list for papers and code about implementing and training very deep neural networks.
 
+## Value Iteration Networks
+
+**Value Iteration Networks** are very deep networks that have tied weights and perform approximate value iteration. They are used as an internal (model-based) planning module.
+
+### Papers
+
+- [Value Iteration Networks (2016)](https://arxiv.org/abs/1602.02867) [[original code](https://github.com/avivt/VIN)], introduces VINs (Value Iteration Networks). The author shows that one can perform value iteration using iterative usage of convolutions and channel-wise pooling. It is able to generalize better in environments where a network needs to plan. NIPS 2016 best paper. 
+
 ## Densely Connected Convolutional Networks
 
 **Densely Connected Convolutional Networks** are very deep neural networks consisting of dense blocks. Within dense blocks, each layer receives the the feature maps of all preceding layers. This leverages feature reuse and thus substantially reduces the model size (parameters).
@@ -24,6 +32,7 @@
 0. [Keras Implementation] (https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
 0. [Chainer Implementation] (https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
 0. [Chainer Implementation] (https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
+0. [PyTorch Implementation](https://github.com/bamos/densenet.pytorch)
 
 
 ## Deep Residual Learning 
