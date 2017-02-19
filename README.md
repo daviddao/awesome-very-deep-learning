@@ -32,6 +32,7 @@
 0. [Keras Implementation] (https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
 0. [Chainer Implementation] (https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
 0. [Chainer Implementation] (https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
+0. [PyTorch Implementation (including BC structures)](https://github.com/andreasveit/densenet-pytorch) by Andreas Veit
 0. [PyTorch Implementation](https://github.com/bamos/densenet.pytorch)
 
 
