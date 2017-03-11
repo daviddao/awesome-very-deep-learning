@@ -95,6 +95,8 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 
 ### Papers
 
+- [The Shattered Gradients Problem: If resnets are the answer, then what is the question?](https://arxiv.org/abs/1702.08591) argues that gradients of very deep networks resemble white noise (thus are harder to optimize). Resnets are more resistant to shattering (decaying sublinearly)
+- [Skip Connections as Effective Symmetry-Breaking](https://arxiv.org/pdf/1701.09175) hypothesizes that ResNets improve performance by breaking symmetries
 - [Highway and Residual Networks learn Unrolled Iterative Estimation](https://arxiv.org/abs/1612.07771), argues that instead of learning a new representation at each layer, the layers within a stage rather work as an iterative refinement of the same features.
 - [Demystifying ResNet](https://arxiv.org/abs/1611.01186), shows mathematically that 2-shortcuts in ResNets achieves the best results because they have non-degenerate depth-invariant initial condition numbers (in comparison to 1 or 3-shortcuts), making it easy for the optimisation algorithm to escape from the initial point.
 - [Wider or Deeper? Revisiting the ResNet Model for Visual Recognition](https://arxiv.org/abs/1611.10080v1), extends results from Veit et al. and shows that it is actually a linear ensemble of subnetworks. Wide ResNet work well, because current very deep networks are actually over-deepened (hence not trained end-to-end), due to the much shorter effective path length. 
