@@ -1,6 +1,7 @@
 <div align="center">
   <img width='600px' src="http://i.imgur.com/XjCXXap.png"><br><br>
 </div>
+
 -----------------
 
 **awesome-very-deep-learning** is a curated list for papers and code about implementing and training very deep neural networks.
@@ -23,15 +24,15 @@
 
 ### Implementations
 
-0. Authors' [Caffe Implementation] (https://github.com/liuzhuang13/DenseNetCaffe)
-0. Authors' more memory-efficient [Torch Implementation] (https://github.com/gaohuang/DenseNet_lite).
-0. [Tensorflow Implementation] (https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li.
-0. [Tensorflow Implementation] (https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare.
-0. [Lasagne Implementation] (https://github.com/Lasagne/Recipes/tree/master/papers/densenet) by Jan Schlüter.
-0. [Keras Implementation] (https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) by tdeboissiere. 
-0. [Keras Implementation] (https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
-0. [Chainer Implementation] (https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
-0. [Chainer Implementation] (https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
+0. Authors' [Caffe Implementation](https://github.com/liuzhuang13/DenseNetCaffe)
+0. Authors' more memory-efficient [Torch Implementation](https://github.com/gaohuang/DenseNet_lite).
+0. [Tensorflow Implementation](https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li.
+0. [Tensorflow Implementation](https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare.
+0. [Lasagne Implementation](https://github.com/Lasagne/Recipes/tree/master/papers/densenet) by Jan Schlüter.
+0. [Keras Implementation](https://github.com/tdeboissiere/DeepLearningImplementations/tree/master/DenseNet) by tdeboissiere. 
+0. [Keras Implementation](https://github.com/robertomest/convnet-study) by Roberto de Moura Estevão Filho.
+0. [Chainer Implementation](https://github.com/t-hanya/chainer-DenseNet) by Toshinori Hanya.
+0. [Chainer Implementation](https://github.com/yasunorikudo/chainer-DenseNet) by Yasunori Kudo.
 0. [PyTorch Implementation (including BC structures)](https://github.com/andreasveit/densenet-pytorch) by Andreas Veit
 0. [PyTorch Implementation](https://github.com/bamos/densenet.pytorch)
 
