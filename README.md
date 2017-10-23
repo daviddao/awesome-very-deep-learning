@@ -20,7 +20,7 @@
 
 ### Papers
 
-- [Densely Connected Convolutional Networks (2016)](https://arxiv.org/abs/1608.06993) [[original code](https://github.com/liuzhuang13/DenseNet)], introduces DenseNets and shows that it outperforms ResNets in CIFAR10 and 100 by a large margin (especially when not using data augmentation), while only requiring half the parameters. 
+- [Densely Connected Convolutional Networks (2016)](https://arxiv.org/abs/1608.06993) [[original code](https://github.com/liuzhuang13/DenseNet)], introduces DenseNets and shows that it outperforms ResNets in CIFAR10 and 100 by a large margin (especially when not using data augmentation), while only requiring half the parameters. CVPR 2017 best paper.
 
 ### Implementations
 
@@ -43,6 +43,7 @@
 
 ### Papers
 
+- [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507) [[original code](https://github.com/hujie-frank/SENet)], introduces Squeeze-and-Excitation (SE) block, that adaptively recalibrates channel-wise feature responses. It achieved the 1st place on ILSVRC17.
 - [Aggregated Residual Transformation for Deep Neural Networks (2016)](https://arxiv.org/abs/1611.05431), introduces ResNeXt, which aggregates a set of transformations within a a res-block. It achieved the 2nd place on ILSVRC16.
 - [Residual Networks of Residual Networks: Multilevel Residual Networks (2016)](https://arxiv.org/abs/1608.02908), adds multi-level hierarchical residual mappings and shows that this improves the accuracy of deep networks
 - [Wide Residual Networks (2016)](http://arxiv.org/abs/1605.07146) [[orginal code](https://github.com/szagoruyko/wide-residual-networks)], studies wide residual neural networks and shows that making residual blocks wider outperforms deeper and thinner network architectures
@@ -89,6 +90,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 0. Caffe: [code](https://github.com/flukeskywalker/highway-networks)
 0. Torch: [code](https://github.com/yoonkim/lstm-char-cnn/blob/master/model/HighwayMLP.lua)
 0. Tensorflow: [blog](https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.r2msk226f), [code](https://github.com/fomorians/highway-cnn)
+0. PyTorch: [code](https://github.com/c0nn3r/pytorch_highway_networks/blob/master/layers/highway.py)
 
 ## Very Deep Learning Theory
 
@@ -96,6 +98,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 
 ### Papers
 
+- [Identity Matters in Deep Learning](https://arxiv.org/abs/1611.04231) considers identity parameterizations from a theoretical perspective and proofs that arbitrarily deep linear residual networks have no spurious local optima 
 - [The Shattered Gradients Problem: If resnets are the answer, then what is the question?](https://arxiv.org/abs/1702.08591) argues that gradients of very deep networks resemble white noise (thus are harder to optimize). Resnets are more resistant to shattering (decaying sublinearly)
 - [Skip Connections as Effective Symmetry-Breaking](https://arxiv.org/pdf/1701.09175) hypothesizes that ResNets improve performance by breaking symmetries
 - [Highway and Residual Networks learn Unrolled Iterative Estimation](https://arxiv.org/abs/1612.07771), argues that instead of learning a new representation at each layer, the layers within a stage rather work as an iterative refinement of the same features.
@@ -103,4 +106,5 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 - [Wider or Deeper? Revisiting the ResNet Model for Visual Recognition](https://arxiv.org/abs/1611.10080v1), extends results from Veit et al. and shows that it is actually a linear ensemble of subnetworks. Wide ResNet work well, because current very deep networks are actually over-deepened (hence not trained end-to-end), due to the much shorter effective path length. 
 - [Residual Networks are Exponential Ensembles of Relatively Shallow Networks](http://arxiv.org/abs/1605.06431), shows that ResNets behaves just like ensembles of shallow networks in test time. This suggests that in addition to describing neural networks in terms of width and depth, there is a third dimension: multiplicity, the size of the implicit ensemble
 - [Bridging the Gaps Between Residual Learning, Recurrent Neural Networks and Visual Cortex](http://arxiv.org/abs/1604.03640), shows that ResNets with shared weights work well too although having fewer parameters 
+- [A Simple Way to Initialize Recurrent Networks of Rectified Linear Units](https://arxiv.org/abs/1504.00941), pre-ResNet Hinton paper that suggested, that the identity matrix could be useful for the initialization of deep networks
 
