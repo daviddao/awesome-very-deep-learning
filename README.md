@@ -43,6 +43,7 @@
 
 ### Papers
 
+- [The Reversible Residual Network: Backpropagation Without Storing Activations](https://arxiv.org/abs/1707.04585v1) [[code](https://github.com/renmengye/revnet-public)] constructs reversible residual layers (no need to store activations) and surprisingly finds out that reversible layers don't impact final performance. 
 - [Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507) [[original code](https://github.com/hujie-frank/SENet)], introduces Squeeze-and-Excitation (SE) block, that adaptively recalibrates channel-wise feature responses. It achieved the 1st place on ILSVRC17.
 - [Aggregated Residual Transformation for Deep Neural Networks (2016)](https://arxiv.org/abs/1611.05431), introduces ResNeXt, which aggregates a set of transformations within a a res-block. It achieved the 2nd place on ILSVRC16.
 - [Residual Networks of Residual Networks: Multilevel Residual Networks (2016)](https://arxiv.org/abs/1608.02908), adds multi-level hierarchical residual mappings and shows that this improves the accuracy of deep networks
