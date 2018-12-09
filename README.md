@@ -4,7 +4,19 @@
 
 -----------------
 
-**awesome-very-deep-learning** is a curated list for papers and code about implementing and training very deep neural networks.
+**awesome-very-deep-learning** is a curated list for papers and code about implementing and training very deep neural networks. 
+
+## Neural Ordinary Differential Equations
+
+**ODE Networks** are a kind of continuous-depth neural network. Instead of specifying a discrete sequence of hidden layers, they parameterize the derivative of the hidden state using a neural network. The output of the network is computed using a black-box differential equation solver. These continuous-depth models have constant memory cost, adapt their evaluation strategy to each input, and can explicitly trade numerical precision for speed. 
+
+### Papers
+
+- [Neural Ordinary Differential Equations (2018)](https://arxiv.org/abs/1806.07366) [[original code]](https://github.com/rtqichen/torchdiffeq), introduces several ODENets such as continuous-depth residual networks and continuous-time latent variable models. The paper also constructs continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions. For training, the authors show how to scalably backpropagate through any ODE solver, without access to its internal operations. This allows end-to-end training of ODEs within larger models. NIPS 2018 best paper.
+
+### Implementations
+
+1. Authors [Autograd Implementation](https://github.com/HIPS/autograd/blob/master/examples/ode_net.py)
 
 ## Value Iteration Networks
 
@@ -24,7 +36,7 @@
 
 ### Implementations
 
-0. Authors' [Caffe Implementation](https://github.com/liuzhuang13/DenseNetCaffe)
+1. Authors' [Caffe Implementation](https://github.com/liuzhuang13/DenseNetCaffe)
 0. Authors' more memory-efficient [Torch Implementation](https://github.com/gaohuang/DenseNet_lite).
 0. [Tensorflow Implementation](https://github.com/YixuanLi/densenet-tensorflow) by Yixuan Li.
 0. [Tensorflow Implementation](https://github.com/LaurentMazare/deep-models/tree/master/densenet) by Laurent Mazare.
@@ -56,7 +68,7 @@
 
 ### Implementations
 
-0. Torch by Facebook AI Research (FAIR), with **training code in Torch and pre-trained ResNet-18/34/50/101 models for ImageNet**: [blog](http://torch.ch/blog/2016/02/04/resnets.html), [code](https://github.com/facebook/fb.resnet.torch)
+1. Torch by Facebook AI Research (FAIR), with **training code in Torch and pre-trained ResNet-18/34/50/101 models for ImageNet**: [blog](http://torch.ch/blog/2016/02/04/resnets.html), [code](https://github.com/facebook/fb.resnet.torch)
 0. Torch, CIFAR-10, with ResNet-20 to ResNet-110, training code, and curves: [code](https://github.com/gcr/torch-residual-networks)
 0. Lasagne, CIFAR-10, with ResNet-32 and ResNet-56 and training code: [code](https://github.com/Lasagne/Recipes/tree/master/papers/deep_residual_learning)
 0. Neon, CIFAR-10, with pre-trained ResNet-32 to ResNet-110 models, training code, and curves: [code](https://github.com/NervanaSystems/ModelZoo/tree/master/ImageClassification/CIFAR10/DeepResNet)
@@ -87,7 +99,7 @@ In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl 
 
 ### Implementations
 
-0. Lasagne: [code](https://github.com/Lasagne/Lasagne/blob/highway_example/examples/Highway%20Networks.ipynb)
+1. Lasagne: [code](https://github.com/Lasagne/Lasagne/blob/highway_example/examples/Highway%20Networks.ipynb)
 0. Caffe: [code](https://github.com/flukeskywalker/highway-networks)
 0. Torch: [code](https://github.com/yoonkim/lstm-char-cnn/blob/master/model/HighwayMLP.lua)
 0. Tensorflow: [blog](https://medium.com/jim-fleming/highway-networks-with-tensorflow-1e6dfa667daa#.r2msk226f), [code](https://github.com/fomorians/highway-cnn)
