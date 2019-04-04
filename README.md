@@ -13,6 +13,7 @@
 ### Papers
 
 - [Neural Ordinary Differential Equations (2018)](https://arxiv.org/abs/1806.07366) [[original code]](https://github.com/rtqichen/torchdiffeq), introduces several ODENets such as continuous-depth residual networks and continuous-time latent variable models. The paper also constructs continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions. For training, the authors show how to scalably backpropagate through any ODE solver, without access to its internal operations. This allows end-to-end training of ODEs within larger models. NIPS 2018 best paper.
+- [Augmented Neural ODEs (2019)](https://arxiv.org/abs/1904.01681), neural ODEs preserve topology, thus their learned flows can't intersect with each other. Therefore some functions can't be learned. Augmented NODEs improve upon this by adding an additional dimension to learn simpler flows.
 
 ### Implementations
 
