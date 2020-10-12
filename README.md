@@ -29,7 +29,7 @@
 
 ## Densely Connected Convolutional Networks
 
-**Densely Connected Convolutional Networks** are very deep neural networks consisting of dense blocks. Within dense blocks, each layer receives the the feature maps of all preceding layers. This leverages feature reuse and thus substantially reduces the model size (parameters).
+**Densely Connected Convolutional Networks** are very deep neural networks consisting of dense blocks. Within dense blocks, each layer receives the feature maps of all preceding layers. This leverages feature reuse and thus substantially reduces the model size (parameters).
 
 ### Papers
 
