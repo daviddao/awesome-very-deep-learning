@@ -85,8 +85,9 @@
 0. Wide Residual Networks in Keras: [code](https://github.com/asmith26/wide_resnets_keras)
 0. ResNet in TensorFlow 0.9+ with pretrained caffe weights: [code](https://github.com/ry/tensorflow-resnet)
 0. ResNet in PyTorch: [code](https://github.com/ruotianluo/pytorch-resnet)
+0. Ladder Network for Semi-Supervised Learning in Keras : [code](https://github.com/divamgupta/ladder_network_keras)
 
-In addition, this [code] (https://github.com/ry/tensorflow-resnet) by Ryan Dahl helps to convert the pre-trained models to TensorFlow.
+In addition, this [code](https://github.com/ry/tensorflow-resnet) by Ryan Dahl helps to convert the pre-trained models to TensorFlow.
 
 
 ## Highway Networks
